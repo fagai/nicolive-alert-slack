@@ -1,0 +1,34 @@
+{
+  "name": "nicolive-alert-slack",
+  "description": "live.nicovideo.jp alert for Slack.",
+  "website": "https://github.com/fagai/nicolive-alert-slack",
+  "repository": "https://github.com/fagai/nicolive-alert-slack",
+  "logo": "あとで対応",
+  "success_url": "/",
+  "keywords": [
+    "node",
+    "nicovideo",
+    "nicolive",
+    "slack"
+  ],
+  "env": {
+    "SLACK_API_TOKEN" : {
+        "description": "SlackのBotのAPIのトークンを指定してください。(https://slack.com/apps/A0F7YS25R-bots)",
+        "required": true
+    },
+    "SLACK_POST_CHANNEL": {
+        "description": "通知するチャンネルを指定してください(例:#generalならgeneral)。なお、先にBotをチャンネルに入れておく必要があります。",
+        "required": true
+    },
+    "NICONICO_LOGIN_MAIL": {
+        "description": "通知の対象とするアカウントのメールアドレスを指定してください。",
+        "required": true
+    },
+    "NICONICO_LOGIN_PASS": {
+        "description": "NICONICO_LOGIN_MAILに対応するパスワードを指定してください。",
+        "required": true
+    }
+  },
+  "addons": [
+  ]
+}

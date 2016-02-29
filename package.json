@@ -1,0 +1,22 @@
+{
+  "name": "nicolive-alert-slack",
+  "version": "1.0.0",
+  "description": "nicolive alert for Slack.",
+  "main": "server.js",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "dotenv": "^2.0.0",
+    "request": "^2.69.0",
+    "slack-client": "^2.0.2",
+    "xml2js": "^0.4.16"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "^5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@fagai",
+  "license": "MIT"
+}
