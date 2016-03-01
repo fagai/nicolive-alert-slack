@@ -3,7 +3,7 @@
   "description": "live.nicovideo.jp alert for Slack.",
   "website": "https://github.com/fagai/nicolive-alert-slack",
   "repository": "https://github.com/fagai/nicolive-alert-slack",
-  "logo": "あとで対応",
+  "logo": "https://raw.githubusercontent.com/wiki/fagai/nicolive-alert-slack/images/icon.png",
   "success_url": "/",
   "keywords": [
     "node",
