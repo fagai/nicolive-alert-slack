@@ -1,6 +1,6 @@
 "use strict";
 
-require('dotenv').config(); // dotenv load
+require('dotenv').config({silent: true}); // dotenv load
 
 const SLACK_POST_CHANNEL = '#' + process.env.SLACK_POST_CHANNEL;
 
