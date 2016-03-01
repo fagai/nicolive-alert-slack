@@ -11,7 +11,7 @@
 
 ### Heroku Deploy
 
-もう少し待ってね。アイコンが用意出来ていません。&ちゃんと動くのか・・・
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ### Manual Install
 
