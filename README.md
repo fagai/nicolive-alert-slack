@@ -15,5 +15,28 @@
 
 ### Manual Install
 
-現状まだnpmに登録していないので、githubからcloneしてね  
-その後はnpm installしてもらって、.env.exampleを元に.envファイルを作って、node server.jsです。
+#### clone repository
+
+```
+$ git clone https://github.com/fagai/nicolive-alert-slack.git
+```
+
+#### package install
+
+```
+$ cd nicolive-alert-slack
+$ npm install
+```
+
+#### create .env
+
+```
+$ cp .env.example .env
+$ vi .env
+```
+
+#### Server Start
+
+```
+$ node server.js
+```
