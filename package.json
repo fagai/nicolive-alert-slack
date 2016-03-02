@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "nicolive alert for Slack.",
   "main": "server.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/fagai/nicolive-alert-slack.git"
+  },
   "dependencies": {
     "cheerio": "^0.20.0",
     "dotenv": "^2.0.0",
