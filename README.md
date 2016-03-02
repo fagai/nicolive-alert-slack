@@ -13,6 +13,8 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+無料版で運用する場合は、Process Scheduler(6時間は休ませる必須)と外部から30分ごとにアクセスが必要です。
+
 ### Manual Install
 
 #### clone repository
@@ -28,7 +30,7 @@ $ cd nicolive-alert-slack
 $ npm install
 ```
 
-#### create .env
+#### create and edit .env
 
 ```
 $ cp .env.example .env
